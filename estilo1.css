@@ -1,0 +1,13 @@
+/* estilo1.css cambio de fondo */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  animation: cambioFondo 12s infinite alternate;
+}
+
+@keyframes cambioFondo {
+  0%   { background-color: #d81f1f; }
+  33%  { background-color: #f0f8ff; }
+  66%  { background-color: #ffeedd; }
+  100% { background-color: #e6ffe6; }
+}
